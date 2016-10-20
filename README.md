@@ -1,0 +1,8 @@
+# article
+
+HUFHREUGCDHEUI
+
+NAME : NOTHING 
+HERE: FUNCTON () {
+  I DONT KNOW NOW;
+}
