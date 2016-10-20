@@ -1,0 +1,52 @@
+/*webheader--*/
+/*header--*/
+header{border-bottom: 1px solid #ccc;}
+.navlist ul li a{line-height:50px;display: block;width:100%;text-align:center;}
+.navlist ul li a:hover{background: silver;color:white;}
+.logReg{line-height:50px;}
+.logReg span{margin:0 10px;}
+/*--header*/
+/*webTitle--*/
+.webTitle{padding: 10px 0;}
+.webTitle h2{margin:0;line-height: 50px;}
+.webTitle h1{margin:0;line-height:30px;}
+/*--webTitle*/
+/*searchBox--*/
+.searchBox{padding-top: 40px;}
+.searchBox input{font-size:18px;}
+/*--searchBox*/
+/*btn/a/input--*/
+.fakeBtn{display: block;padding: 5px 15px;font-family: '楷体', '宋体', '黑体';font-weight: bold;border:1px solid #ccc;background:cyan;background: linear-gradient(to top right, cyan, darkcyan);color:white;}
+/*--btn/a/input*/
+/*bookShelf--*/
+.bookShelf{padding-top: 40px;}
+.bookShelf .fakeBtn{background: white;color:black;font-size:18px;font-weight: 100;}
+.bookShelf .fakeBtn:hover{background: linear-gradient(to top right, red, darkred);color:white;}
+/*--bookShelf*/
+
+/*color--*/
+.bg{background: rgb(50,40,60);background:linear-gradient(to bottom, black 0%, rgb(50,50,50) 50%, black 95%);color:white;font-size:20px;margin-top:20px;}
+/*--color*/
+/*other--*/
+.funcTitle{padding: 10px 0;line-height:23px;}
+.dirList ul{margin-bottom: 0px;}
+.dirList ul li a{display: block;padding: 10px 0px; width:100%;line-height: 100%;color:silver;border-bottom: 3px solid transparent;}
+.dirList ul li a:hover{color:orangered;text-decoration: none;border-bottom: 3px solid orangered;}
+/*--other*/
+/*--webheader*/
+
+/*classes--*/
+.classifyBox{padding: 10px 0;}
+.classifyBox a .imgClass{color:black;}
+.classifyBox a .imgClass:hover{color:orangered;font-weight:bold;}
+/*--classes*/
+
+/*webfooter--*/
+footer{background: rgb(50,40,60);background:linear-gradient(to bottom, black 0%, rgb(50,50,50) 50%, black 95%);color:silver;font-size:20px;margin-top:20px;}
+footer a{color:inherit;}
+footer a:hover{color:orangered;}
+footer .aTag{line-height:40px;border-bottom: 1px solid silver;margin-bottom: 10px;}
+footer .statement{font-size:0.2em;text-indent: 2em;}
+footer .statement a{font-weight: bold;margin-left:5px;color:white;}
+footer .statement a:hover{color:orangered;}
+/*--webfooter*/

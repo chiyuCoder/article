@@ -1,0 +1,56 @@
+<div>
+    <div class="row">
+        <div class="col-xs-12 listby">
+            <div class="row">
+                <span class="listbyTitle">排序方式:</span>
+                <label>                
+                    <input type="radio" ng-model="$ctrl.listby" name="orderby"  value="vistor">
+                    <span>观看人数</span>
+                </label>
+                <label>                
+                    <input type="radio" ng-model="$ctrl.listby"  name="orderby" value="bookWriter">
+                    <span>作者</span>
+                </label>
+                <label>
+                    <input type="radio" ng-model="$ctrl.listby" name="orderby" value="publicTime">
+                    <span>发布时间</span>
+                </label>
+                <label>
+                    <input type="radio" ng-model="$ctrl.listby" name="orderby" value="bookPrice">
+                    <span>价格</span>
+                </label>
+            </div>
+            <div class="row">
+                <span class="listbyTitle">是否筛选：</span>
+                <label>
+                    <input type="text" placeholder="筛选文字" ng-model="$ctrl.query">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-lg-6" ng-repeat = "book in $ctrl.books | filter:$ctrl.query | orderBy: $ctrl.listby">
+            <div class="listbooks row">
+                <div class="col-xs-3 text-center">
+                    <a href="composition.html#!/book/{{book.id}}">
+                        <img ng-src="{{book.bookImg}}" alt="{{book.bookName}}" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <h2><a href="composition.html#!/book/{{book.id}}">{{book.bookName}}</a></h2>
+                    <div class="row clearfix">
+                        <div class="col-xs-12 col-sm-6">观看人数：{{book.vistor}}</div>
+                        <div class="col-xs-12 col-sm-6 text-right">发布时间：{{book.publicTime}}</div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-xs-12 col-sm-6">作者：{{book.bookWriter}}</div>
+                        <div class="col-xs-12 col-sm-6 text-right">书品价格:{{book.bookPrice}}</div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-xs-12">类别：{{book.bookClass}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+    {
+        "id":"zc",
+        "bookClass": "奇幻",
+        "pyClass":"qihuan",
+        "bookName": "早晨",
+        "bookWriter":"克林霉素",
+        "bookImg":"img/book90.jpg",
+        "bookDescribe":"果你能自由穿越任意世界，你的选择会是一条怎样的路？",
+        "bookPrice":142.01,
+        "publicTime":"2017-04-35",
+        "vistitor":1256324,
+        "sections": ["游戏", "职场", "肺热", "注册", "众筹"]
+    }

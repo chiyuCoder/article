@@ -1,0 +1,15 @@
+<ul class="list-unstyled">
+    <li ng-repeat = "book in $ctrl.books" class="row recommendBooks">
+        <div class="col-xs-8 col-sm-9">
+            <a href="#!/recommends/{{book.id}}" class="lightClr">
+                <small>【{{book.bookClass}}】</small>
+            </a>
+            <a href="#!/recommends/{{book.id}}">
+                <strong>《{{book.bookName}}》</strong>
+            </a>
+        </div>
+        <div class="col-xs-4 col-sm-3 text-right">
+            <a href="#!/recommends/{{book.id}}"><small>{{book.bookWriter}}</small></a>
+        </div>
+    </li>
+</ul>

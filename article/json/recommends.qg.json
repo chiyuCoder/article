@@ -1,0 +1,13 @@
+    {
+        "id":"qg",
+        "bookClass": "历史",
+        "pyClass": "lishi",
+        "bookName": "秦国",
+        "bookWriter":"赵政",
+        "bookImg":"img/book93.jpg",
+        "bookDescribe":"个重生归来的盾战士，这一世，他要完成所有曾经没有完成的遗憾，爱人",
+        "bookPrice":135.26,
+        "publicTime":"2022-03-71",
+        "visitor":12543,
+        "sections": ["qd1", "qd2", "qg3","全国奇怪去过"]
+    }

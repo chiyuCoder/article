@@ -1,0 +1,62 @@
+[
+    {
+        "imgSrc":"img/classes/dushi.png",
+        "className":"都市",
+        "classVistor":"1545485",
+        "pyClass":"dushi"
+    },
+    {
+        "imgSrc":"img/classes/junshi.png",
+        "className":"军事",
+        "classVistor":"15445485",
+        "pyClass":"junshi"
+    },
+    {
+        "imgSrc":"img/classes/kehuan01.png",
+        "className":"科幻",
+        "classVistor":"15455565",
+        "pyClass": "kehuan"
+    },
+    {
+        "imgSrc":"img/classes/lingyi.png",
+        "className":"灵异",
+        "classVistor":"15455558",
+        "pyClass":"lingyi"
+    },
+    {
+        "imgSrc":"img/classes/lishi.png",
+        "className":"历史",
+        "classVistor":"1545485",
+        "pyClass": "lishi"
+    },
+    {
+        "imgSrc":"img/classes/tiyu.png",
+        "className":"体育",
+        "classVistor":"15455585",
+        "pyClass": "tiyu"
+    },
+    {
+        "imgSrc":"img/classes/wuxia.png",
+        "className":"武侠",
+        "classVistor":"15522485",
+        "pyClass": "wuxia"
+    },
+    {
+        "imgSrc":"img/classes/xianxia.png",
+        "className":"仙侠",
+        "classVistor":"1546985",
+        "pyClass": "xianxia"
+    },
+    {
+        "imgSrc":"img/classes/youxi.png",
+        "className":"游戏",
+        "classVistor":"15458663",
+        "pyClass": "youxi"
+    },
+    {
+        "imgSrc":"img/classes/zhichang.png",
+        "className":"职场",
+        "classVistor":"156224",
+        "pyClass":"zhichang" 
+    }
+]

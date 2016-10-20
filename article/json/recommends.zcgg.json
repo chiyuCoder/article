@@ -1,0 +1,14 @@
+
+    {
+        "id":"zcgg",
+        "bookClass": "职场",
+        "pyClass": "zhichang",
+        "bookName":"职场公关",
+        "bookWriter":"公关小组",
+        "bookImg":"img/book91.jpg",
+        "bookDescribe":"要高山仰止，喷人一脸的正义感？强取豪夺，放浪形骸也未必不能成就一段传奇",
+        "bookPrice" :  120.78,
+        "publicTime" : "2017-09-38",
+        "visitor": 2245664,
+        "sections": ["这才乖个", "最丑狗狗", "主持稿改", "紫草膏给"]
+    }

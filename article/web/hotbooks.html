@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-6 hotBox" ng-repeat = "hotbook in $ctrl.hotbooks">
+        <div class="row">
+            <div class="col-xs-4 text-center">
+                <a href="composition.html#!/book/{{hotbook.id}}">
+                    <img ng-src = "{{hotbook.bookImg}}" alt = "{{hotbook.bookName}}"/>
+                </a>                
+            </div>
+            <div class="col-xs-8">
+                <h4>
+                    <a href="composition.html#!/book/{{hotbook.id}}">
+                        <strong>{{hotbook.bookName}}</strong>
+                    </a>
+                </h4>
+                <p>{{hotbook.bookDescribe}}</p>
+                <div class="clearfix">
+                    <div class="pull-left">
+                        <a href="list.html#!/class/{{hotbook.bookWriter}}"><small>{{hotbook.bookWriter}}</small></a>
+                    </div>
+                    <div class="pull-right">
+                        <a href="list.html#!/class/{{hotbook.pyClass}}"><small>{{hotbook.bookClass}}</small></a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>

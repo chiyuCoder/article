@@ -1,0 +1,19 @@
+
+
+
+/*carousel--*/
+#bsbn .carousel-control{padding-top: 20%;font-size:50px;}
+/*--carousel*/
+/*recommendBooks--*/
+.columnTitle{padding: 20px 0;border-bottom: 1px solid #000;}
+.recommendBooks{padding: 10px 0;border-bottom: 1px solid #ccc;}
+.recommendBooks a,.recommendDetail a{color:black;}
+.recommendBooks a:hover,.recommendDetail a:hover{color:darkorange;}
+.recommendDetail h2{font-size: 18px;}
+.recommendDetail dl.horizontal dt{width:40px;}
+/*--recommendBooks*/
+/*hotbooks--*/
+.hotBox{padding: 10px;border-bottom:1px solid silver;}
+.hotBox a{color:black;}
+.hotBox a:hover{color:darkorange;}
+/*--hotbooks*/

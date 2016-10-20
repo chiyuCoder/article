@@ -1,0 +1,55 @@
+#rank{color: black;border-bottom: 2px solid orangered;background: silver;}
+/*listby--*/
+.listby .row{padding: 10px 0 0 0;}
+.listby .row:last-child{padding-bottom: 10px;}
+.listbyTitle{margin-right: 20px;font-size:20px;font-family:'楷体';}
+.listby label{margin:0 10px;}
+.listbooks{padding: 10px 0;border-bottom: 1px solid silver;}
+.listbooks h2{margin:0;line-height:40px;}
+.listbooks h2 a{color:black;font-family: '楷体';}
+.listbooks h2 a:hover{color:orangered;}
+.listbooks .clearfix div{line-height: 30px;font-family:'Microsoft JhengHei';font-weight: bold;}
+/*--listby*/
+/*fontFamily--
+macos
+隶书：LiSu 
+幼圆：YouYuan 
+华文细黑：STXihei 
+华文楷体：STKaiti 
+华文宋体：STSong 
+华文中宋：STZhongsong 
+华文仿宋：STFangsong 
+方正舒体：FZShuTi 
+方正姚体：FZYaoti 
+华文彩云：STCaiyun 
+华文琥珀：STHupo 
+华文隶书：STLiti 
+华文行楷：STXingkai 
+华文新魏：STXinwei 
+
+office
+华文细黑：STHeiti Light [STXihei] 
+华文黑体：STHeiti 
+华文楷体：STKaiti 
+华文宋体：STSong 
+华文仿宋：STFangsong 
+儷黑 Pro：LiHei Pro Medium 
+儷宋 Pro：LiSong Pro Light 
+標楷體：BiauKai 
+蘋果儷中黑：Apple LiGothic Medium 
+蘋果儷細宋：Apple LiSung Light 
+
+Windows： 
+新細明體：PMingLiU 
+細明體：MingLiU 
+標楷體：DFKai-SB 
+黑体：SimHei 
+宋体：SimSun 
+新宋体：NSimSun 
+仿宋：FangSong 
+楷体：KaiTi 
+仿宋_GB2312：FangSong_GB2312 
+楷体_GB2312：KaiTi_GB2312 
+微軟正黑體：Microsoft JhengHei 
+微软雅黑体：Microsoft YaHei 
+--fontFamily*/

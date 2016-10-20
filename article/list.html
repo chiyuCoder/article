@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta  charset="utf-8">
+    <title>Sinyuu</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bsdefine.family.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bsdefine.list.css" type="text/css" rel="stylesheet"/>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/list.module.js"></script>
+    <script src="js/list.config.js"></script>
+</head>
+<body ng-app="bookList">    
+<!--[if lte IE 8]>
+        <link type="text/css" rel="stylesheet"  href="../css/style.css"/>
+        <div id="ieMask">
+            <div id="ieMain">
+                <div id="ieHeader">
+                    <h2>WARNING</h2>
+                </div>
+                <div id="ieBody">
+                    <p class="ptitle">亲爱的用户：</p>
+                    <p class="blankp">本网站暂不支持IE8以下浏览器。如果您使用的是360、搜狗、QQ浏览器，请你切换到极速模式</p>
+                    <div class="acb">
+                        <div id="close" class="fr">关闭弹窗</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/script.js" type="text/javascript"></script>
+        <script src="../js/ieWarn.js" type="text/javascript"></script>
+<![endif]-->
+
+    <webheader></webheader>
+    <div class="container">
+        <div class="col-xs-12 col-sm-3">
+            <classes></classes>
+        </div>
+        <div class="col-xs-12 col-sm-9">            
+            <!--<ranklist></ranklist>-->
+            <div ng-view></div>
+        </div>
+    </div>
+    <webfooter></webfooter>    
+    <script src="web/webheader.module.js"></script>
+    <script src="web/webheader.component.js"></script>
+    <script src="web/classify.module.js"></script>
+    <script src="web/classify.component.js"></script>
+    <script src="web/webfooter.module.js"></script>
+    <script src="web/webfooter.component.js"></script>
+    <script src="web/ranklist.module.js"></script>
+    <script src="web/ranklist.component.js"></script>
+</body>
+</html>

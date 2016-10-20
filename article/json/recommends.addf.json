@@ -1,0 +1,14 @@
+
+    {
+        "id":"addf",
+        "bookName":"暗的地方",
+        "bookClass":"仙侠",
+        "pyClass":"xianxia",
+        "bookWriter":"defrost",
+        "bookImg":"img/book96.jpg",
+        "bookDescribe":"异界处理矿石废渣的垃圾处理场。这些在异界是极为危险的垃",
+        "bookPrice":129.36,
+        "publicTime":"2015-02-29",
+        "vistor":25614,
+        "sections": ["addsd", "adsdsad" , "adasde", "defew", "deafre"] 
+    }

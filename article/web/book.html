@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="hidden-xs col-sm-3">        
+        <div class="row">
+            <div class="abstract">
+                <table>
+                    <tr>
+                        <td>作者：</td>
+                        <td> 
+                            <a href="list.html#!/class/{{$ctrl.book.bookWriter}}">
+                                {{$ctrl.book.bookWriter}}
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>定价：</td>
+                        <td>{{$ctrl.book.bookPrice}}</td>
+                    </tr>
+                    <tr>
+                        <td>类别：</td>
+                        <td>
+                            <a href="list.html#!/class/{{$ctrl.book.bookClass}}">{{$ctrl.book.bookClass}}</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <img ng-src="{{$ctrl.book.bookImg}}" class="img-responsive" alt="{{$ctrl.book.bookName}}">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <article>
+            <h2 class="text-center">{{$ctrl.book.bookName}}</h2>
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <h3>目录</h3>
+                <ol>
+                    <li ng-repeat = "sec in $ctrl.book.sections">
+                        <h5>{{sec}}</h5>
+                    </li>
+                </ol>
+            </div>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+    {
+        "id":"khgk",
+        "bookClass":"游戏",
+        "pyClass": "youxi",
+        "bookName":"客户高考",
+        "bookWriter":"发热管",
+        "bookImg":"img/book99.jpg",
+        "bookDescribe":"灵魂到底去哪里，我在殡仪馆为你解答！",
+        "bookPrice":125.45,
+        "publicTime":"2026-02-35",
+        "vistor":125486,
+        "sections":["看后感看", "阿大声道", "ads阿达撒"]
+    }

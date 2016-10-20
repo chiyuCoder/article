@@ -1,0 +1,5 @@
+.abstract{padding-top:20px;}
+.abstract td{line-height: 30px;}
+.abstract td img{border:1px solid silver;box-shadow: -10px 10px 0px 0px silver;}
+article{min-height:500px;}
+article h3{padding: 20px 0;}

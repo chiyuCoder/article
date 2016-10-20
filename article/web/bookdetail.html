@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="col-xs-6 text-center">
+        <a href="composition.html#!/book/{{$ctrl.book.id}}" title="{{$ctrl.book.bookName}}">
+            <img ng-src="{{$ctrl.book.bookImg}}" alt="{{$ctrl.book.bookName}}" style="width:100%">
+        </a>
+    </div>
+    <div class="col-xs-6 recommendDetail">
+        <h2>
+            <a href = "composition.html#!/book/{{$ctrl.book.id}}" title= "{{$ctrl.book.bookName}}">
+                {{$ctrl.book.bookName}}
+            </a>
+        </h2>
+        <dl>
+            <dt>分类:</dt>
+            <dd>
+                <a href="list.html#!/class/{{$ctrl.book.pyClass}}">{{$ctrl.book.bookClass}}</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>价格</dt>
+            <dd>{{$ctrl.book.bookPrice}}</dd>
+        </dl>
+        <dl >
+            <dt>发布时间</dt>
+            <dl>{{$ctrl.book.publicTime}}</dl>
+        </dl>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">{{$ctrl.book.bookDescribe}}</div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <a href="composition.html#!/book/{{$ctrl.book.id}}">进入</a>
+    </div>
+    <div class="col-xs-6 text-right">
+        <a href="javascript:history.back();">返回</a>
+    </div>
+</div>

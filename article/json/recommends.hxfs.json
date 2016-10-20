@@ -1,0 +1,13 @@
+ {
+        "id":"hxfs",
+        "bookClass": "都市",
+        "pyClass" : "dushi",
+        "bookName": "华夏方士",
+        "bookWriter":"方寸",
+        "bookImg":"img/book94.jpg",
+        "bookDescribe":"成了异界处理矿石废渣的垃圾处理场。这些在异界是极为危险的垃圾，在叶枫",
+        "bookPrice":142.01,
+        "publicTime":"2017-04-35",
+        "visitor":1252245,
+        "sections": ["干么", "好吧", "加码", "那里","风景", "停留"]
+    }
